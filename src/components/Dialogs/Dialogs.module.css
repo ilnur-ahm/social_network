@@ -1,0 +1,34 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+
+}
+
+.dialogsItems {
+    padding: 20px;
+}
+
+.dialogsItems .activeLink {
+    color: purple;
+    font-weight: 700;
+    border: 2px solid ; /* Параметры рамки */
+    background: bisque; /* Цвет фона */
+    padding: 0% 3%; /* Поля вокруг текста */
+    border-radius: 10px;
+
+}
+
+.dialog a {
+    text-decoration: none;
+    color: antiquewhite; 
+
+}
+
+.messages {
+    color: white;
+    padding: 20px;
+}
+
+.message {
+    
+}
