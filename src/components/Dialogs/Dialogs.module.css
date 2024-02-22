@@ -9,7 +9,7 @@
 }
 
 .dialogsItems .activeLink {
-    color: hotpink;
+    color: purple;
     font-weight: 700;
     border: 2px solid ; /* Параметры рамки */
     background: bisque; /* Цвет фона */
