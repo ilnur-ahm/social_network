@@ -1,5 +1,6 @@
 import Preloader from '../../Common/Preloader/Preolader'
 import s from './ProfileInfo.module.css'
+import ProfileStatusWithHooks from './ProfileStatusWithHooks'
 
 const ProfileInfo = (props) => {
     if (!props.profile) {
@@ -7,13 +8,13 @@ const ProfileInfo = (props) => {
     }
 
     return <div>
-        <div>
+       {/* <div>
             <img src='https://cdn.tripster.ru/thumbs2/2a9a60e0-fcdb-11ed-bb0b-a25e06629b62.1220x600.jpeg' />
-        </div>
+</div>*/}
 
         <div className= {s.descriptionBlock}>
             <img src = {props.profile.photos.large} />
-            ava + discription
+            <ProfileStatusWithHooks status={props.status} updateStatus = {props.updateStatus} />
         </div>
     </div>
 }
