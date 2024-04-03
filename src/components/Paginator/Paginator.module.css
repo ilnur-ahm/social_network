@@ -2,3 +2,13 @@
     font-weight: bold;
     color:crimson;
 }
+
+.pageNumber{
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.pageNumber.selectedPage{
+    font-weight: bold;
+    border-color: red
+}
